@@ -1,0 +1,14 @@
+variable = (condition) ? Expression2 : Expression3;
+
+
+if condition is true then it goes to expression 2
+if condition is false then it goes to expression 3
+
+
+integer number are whole number + negative number=-1-2-3-4-5=012345
+pointer
+call by value- when we pass value as an argument to a function then it is call by value e.g.void add(int,int);
+(call by value is copy of varables is pass to the function original value not change)
+
+call by reference-when we pass address as an argument to function then it is call by refernce. e.g. void add(int*,int*);
+(call by reference  then original value pass to the function )

@@ -1,0 +1,21 @@
+//write a program to solve hcf and lcm 2 numbers
+#include<stdio.h>
+int main(){
+int a,b,x,y;
+printf("enter two numbers");
+scanf("%d%d",&x,&y);
+a=x;
+b=y;
+while(a==b)
+{
+    if(a>b)
+    a=a-b;
+    
+    if(b>a)
+    b=b-a;
+}
+printf("hcf/lcm=%d,b");
+int lcm=x*y/b;
+printf("\nlcm=%d",lcm);
+return 0;
+}

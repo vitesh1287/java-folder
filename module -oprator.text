@@ -1,0 +1,3 @@
+%	Modulus	Returns the division remainder	x % y
+for example 2%3=2
+if we divide like 2/3 = 0.66 but remainder is 2 

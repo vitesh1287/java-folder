@@ -1,0 +1,36 @@
+Sure! Let’s break it down in simple terms.
+
+### Understanding Pointers and Arrays
+
+1. **Array Basics**:
+   - An array is a collection of elements. For a 2D array, you can think of it as a table with rows and columns.
+   - In your case, `arr[3][4]` is a table with 3 rows and 4 columns.
+
+2. **Accessing Elements**:
+   - When you use `arr[i][j]`, you are accessing the specific element in the `i`-th row and `j`-th column.
+
+3. **What is `arr[i]`?**:
+   - `arr[i]` gives you a pointer to the start of the `i`-th row. It’s like saying, “Give me the address of the first element in this row.”
+
+4. **What is `*arr[i]`?**:
+   - `*arr[i]` dereferences the pointer, meaning it gives you the value of the first element in the `i`-th row. So if you use `*arr[i]`, you get the actual number, not the address.
+
+### Why the Change Matters
+
+- If you want to **print the address** of the row itself, you should use `arr[i]`.
+- If you accidentally use `*arr[i]`, you’ll get the value of the first element instead of the address.
+
+### Example
+
+For clarity, let’s look at this example:
+
+- Consider `arr[0]`:
+  - `arr[0]` gives you the address of the first element in the first row (which is `10`).
+  - `*arr[0]` gives you `10`, the value at that address.
+
+### Summary
+
+- **Use `arr[i]`** to get the address of the row.
+- **Use `*arr[i]`** to get the value of the first element in that row.
+
+I hope this helps clarify things! Let me know if you have more questions!

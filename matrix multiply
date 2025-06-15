@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main(){
+    int mat1[50][50],mat2[50][50],mat3[50][50],i,j,n,k;
+    printf("enter the matrix mat1[%d*%d] row-wise :\n");
+    for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            scanf("%d",mat1[i][j]);
+
+        }
+    }
+    
+    printf("enter the matrix mat2 [%d*%d] row-wise:\n");
+    for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            scanf("%d",mat2[i][j]);
+
+        }
+    }
+
+/* multitiplication */
+for(i=0;i<n;i++)
+for(j=0;j<n;j++)
+
+mat3 [i] [j] = 0;{
+for(k=0;k<n;k++)
+mat3[i][j] +=mat1[i][k]*mat2[k][j]
+}
+
+printf("the resultant matrix mat3 is:\n");
+for(i=0;i<n;i++){
+    for(j=0;j<n;j++){
+        printf("%d",mat3[i][j]);
+        printf("\n");
+    }
+}
+}
+
+
