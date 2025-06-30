@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Show",
+            "request": "launch",
+            "mainClass": "Show",
+            "projectName": "coding_questions_90412038"
+        },
+        {
+            "type": "java",
             "name": "Demo",
             "request": "launch",
             "mainClass": "Demo",
