@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Checkpositivenegative",
+            "request": "launch",
+            "mainClass": "Checkpositivenegative",
+            "projectName": "coding_questions_90412038"
+        },
+        {
+            "type": "java",
             "name": "Checknumber",
             "request": "launch",
             "mainClass": "Checknumber",
