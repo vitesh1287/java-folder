@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Numbers",
+            "request": "launch",
+            "mainClass": "Numbers",
+            "projectName": "coding_questions_90412038"
+        },
+        {
+            "type": "java",
             "name": "Dayofweeks",
             "request": "launch",
             "mainClass": "Dayofweeks",
