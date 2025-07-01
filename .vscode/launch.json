@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Dayofweeks",
+            "request": "launch",
+            "mainClass": "Dayofweeks",
+            "projectName": "coding_questions_90412038"
+        },
+        {
+            "type": "java",
             "name": "Checkpositivenegative",
             "request": "launch",
             "mainClass": "Checkpositivenegative",
