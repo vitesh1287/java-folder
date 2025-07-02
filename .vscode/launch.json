@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Dowhile",
+            "request": "launch",
+            "mainClass": "Dowhile",
+            "projectName": "coding_questions_90412038"
+        },
+        {
+            "type": "java",
             "name": "Reverse",
             "request": "launch",
             "mainClass": "Reverse",
