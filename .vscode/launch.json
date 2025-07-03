@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Swapnumbers",
+            "request": "launch",
+            "mainClass": "Swapnumbers",
+            "projectName": "coding_questions_90412038"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "Test",
