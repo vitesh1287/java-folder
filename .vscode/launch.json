@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseNumber",
+            "request": "launch",
+            "mainClass": "ReverseNumber",
+            "projectName": "coding_questions_90412038"
+        },
+        {
+            "type": "java",
             "name": "Largestnumber",
             "request": "launch",
             "mainClass": "Largestnumber",
